@@ -74,6 +74,7 @@ class RussianTransformer:
         "кортеж": "tuple",
     }
 
+    # Замены для неопределенных команд
     other_replacements = {
         "вывод": "print",
         "ввод": "input",
